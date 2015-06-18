@@ -2,9 +2,7 @@ package jackson;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.google.auto.value.AutoValue;
 
-@AutoValue
 public abstract class AutoValueBean
 {
     @JsonCreator
